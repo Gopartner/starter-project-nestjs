@@ -96,7 +96,7 @@ export default function Home() {
         onClick={() => setDarkMode(!darkMode)}
         className="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 dark:bg-blue-700 dark:hover:bg-blue-600 transition"
       >
-        Toggle {darkMode ? 'Light' : 'Dark'} Mode
+        Toggle Dark Mode
       </button>
     </main>
   );
